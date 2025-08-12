@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
    background-color: #aae0ed;
 }
@@ -19,8 +23,14 @@ span {
     align-items: center;
 }
 
+#header img{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #sidebar {
-    height: 400px;
+    height: 700px;
     width: 120px;
     background-color: #15bf23;
 }
@@ -44,7 +54,15 @@ span {
 }
 
 #menu {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
     height: 50px;
-    width: 50px;
+    width: 500px;
     background-color: #e4267c;
+}
+
+#menu a{
+    color: whitesmoke;
+    text-decoration: none;
 }

@@ -4,8 +4,82 @@
         <title>Olá Mundo HTML!</title>
         <link rel="stylesheet" href="css/style.css" />
         <style>
+            * {
+                margin: 0px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                height: 100vh;
+                background-color: #aae0ed;
+            }
+
             h1 {
-              color: #af29c3;  
+                color: #234234;
+                background-color: #1b5b16;
+            }
+
+            span {
+                color: #04047d;
+            }
+
+            #header {
+                height: 80px;
+                background-color: #867d0b;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            #header img {
+                height: 80px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            #footer {
+                height: 150px;
+                background-color: #28292d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FFFFFF;
+                margin-top: auto;
+            }
+
+            .flex-row {
+                display: flex;
+                flex: 1;
+            }
+
+            #sidebar {
+                width: 20%;
+                background-color: #15bf23;
+                padding: 10px;
+            }
+
+            #content {
+                flex: 1;
+                padding: 10px;
+                background-color: #e0abec;
+            }
+
+            #menu {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                height: 50px;
+                width: 500px;
+                background-color: #e4267c;
+            }
+
+            #menu a {
+                color: whitesmoke;
+                text-decoration: none;
             }
         </style>
     </head>

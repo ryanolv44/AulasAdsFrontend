@@ -1,7 +1,3 @@
-* {
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 body {
    background-color: #aae0ed;
 }
@@ -24,13 +20,12 @@ span {
 }
 
 #header img{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 60px;
+    height: 60px;
 }
+
 #sidebar {
-    height: 700px;
+    height: 400px;
     width: 120px;
     background-color: #15bf23;
 }
@@ -54,15 +49,15 @@ span {
 }
 
 #menu {
-    display:flex;
-    align-items: center;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 50px;
-    width: 500px;
+    width: 400px;
     background-color: #e4267c;
 }
 
 #menu a{
-    color: whitesmoke;
+    color: #FFF;
     text-decoration: none;
 }

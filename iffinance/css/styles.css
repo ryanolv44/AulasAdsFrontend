@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c;
+    color: #FFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+body > header {
+    height: 90px;
+    background-color: black;
+}
+body > header .wrapper .flexrow{
+    align-items: center;
+}
+
+body > header .wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    padding: 32px 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav ul li a:hover, .active{
+    border-bottom: 2px solid #ec7b11;
+    color: #ec7b11;
+}
+
+
+/* header nav{
+    margin: 0 0 0 auto;
+} */
+
+body > header img{
+    width: 50px;
+    height: 50px;
+}
+
+.flexrow{
+    display: flex;
+    gap: 20px;
+}
+aside {
+    width: 200px;
+    min-height: calc(100vh - 210px);
+    background-color: bisque;
+}
+body > div.wrapper > div > main {
+    width: 100%;
+    min-height: calc(100vh - 210px);
+}
+body > footer {
+    height: 120px;
+    background-color: black;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.card-stock{
+    width: 200px;
+    background-color: black;
+    padding: 20px;
+}
+
+.card-stock header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-stock header h2, .card-stock header h3{
+    margin: 0;
+}
+
+.card-stock main{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    font-size: 24px;
+}
+
+.card-stock footer{
+    display: flex;
+    justify-content: space-between;
+}
